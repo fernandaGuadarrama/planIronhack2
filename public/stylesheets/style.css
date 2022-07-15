@@ -56,65 +56,6 @@ body{
   width: 100vw;
   height: 15vh;
 }
-
-*{
-  font-family: 'Pathway Gothic One', sans-serif;
-  background-repeat: no-repeat;
-  padding: 0;
-    margin: 0;
-    box-sizing: content-box;
-}
-body{
-  font-family: 'Courier New', Courier, monospace;
-  background-color: black;
-
-}
-.ripple{
-  border-radius: 50%;
-  size: 60%;
-}
-
-/* HOME PAGE */
-.align-self-start{
-  align-items: flex-end;
-  align-items: center;
-}
-
-/*2 PERSONAS*/
-.d-flex align-items-baseline{
-  display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
-}
-#background{
-  background-clip: src("/videos/PLAN.mp4");
-    background-size: cover;
-    background-size: 25rem;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-  #bigBox{
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  a:link, a:visited, a:active {
-    text-decoration:none;
-}
-#video{
-  background-color: brown;
-  width: 100vw;
-  height: 15vh;
-}
-#video{
-  width: 100vw;
-  height: 15vh;
-}
 #map {
   height: 400px;
   width: 100%;

@@ -45,6 +45,13 @@ router.post("/registrarPlan/:tipo", (req, res) => {
   .catch(console.log)
 })
 
+router.get("/home/nuevoEvento/:id", (req, res, next) =>{
+  res.render("id")
+})
+
+router.get("/home/editEvent/:id", (req, res, next) =>{
+  res.render("home/editEvent")
+})
 
 module.exports = router;
     

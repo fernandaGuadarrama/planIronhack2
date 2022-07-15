@@ -65,3 +65,6 @@ router.get("/dosPersonas/out-dosPersonas", (req, res,) => {
 
     module.exports = router;
 
+    router.get("/drinks/:id", (req, res, next) =>{
+      res.render("id")
+    })
